@@ -16,7 +16,7 @@ class Spring1 extends Component {
             position: 'absolute',
             top: val.animation*0.33,
             left: val.animation*0.25,
-            border: `3px solid hsla(${ (val.animation / 360) * 100 }, 83%, 63%, 1)`,
+            'background-color': `hsla(${ (val.animation / 360) * 100 }, 83%, 63%, 0.6)`,
             'border-radius': '100%',
             transform: `rotate(${val.animation}deg)`
           }
