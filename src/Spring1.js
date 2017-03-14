@@ -17,6 +17,7 @@ class Spring1 extends Component {
             top: val.animation*0.33,
             left: val.animation*0.25,
             'background-color': `hsla(${ (val.animation / 360) * 100 }, 83%, 63%, 0.6)`,
+            color: `hsla(${ (val.animation / 360) * 100 }, 83%, 63%, 0.6)`,
             'border-radius': '100%',
             transform: `rotate(${val.animation}deg)`
           }
